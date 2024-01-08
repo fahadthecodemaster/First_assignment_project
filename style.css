@@ -1,0 +1,196 @@
+
+img{
+    width: 50px;
+}
+
+.hero-background{
+    
+        background-image: url(./img/pexels-philippe-donn-1169754.jpg);
+        background-color: #007BFF;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 600px;
+      
+}
+
+/*.hero-video{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-left: 0;
+}*/
+
+/*@media (min-aspect-ratio: 16/9){
+    .hero-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .hero-video{
+        width: auto;
+        height: 100%;
+    }
+}*/
+
+
+.hero-title{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+   
+    
+}
+
+.hero-title h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600px;
+    overflow: hidden;
+    margin-top: 150px;    
+}
+
+.btn-e{
+    
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 10px double black;
+    position: absolute;
+    /* Adjust top, left, right, or bottom based on your specific layout requirements */
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-title .btn-e:hover{
+    background-color: aquamarine;
+    font-size: 31px ;
+    transition: 0.2s;
+}
+
+@media (max-width:884px){
+    .hero-background{
+        margin:0px;
+        flex-direction: column;
+      
+
+    }
+    .hero-background h1{
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+    .hero-background button{
+        font-size: 20px;
+        
+        align-items: center;
+    }
+    .hero-background .btn-e:hover{
+        font-size: 21px;
+    }
+   
+}
+.my-card-img{
+    
+   align-self: center;
+   margin-bottom: 10px;
+}
+
+.card-size{
+    height: 300px;
+    margin: 15px;
+}
+.card{
+    border: none !important;
+}
+
+.age-section{
+
+    border: none;
+    
+    
+}
+
+.bg{
+    background-image: url(./img/Rainbow\ Blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-n{
+    background-image: url(./img/Jaipur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-age{
+    background-image: url(./img/age-bg-3088958.jpg);
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.footer{
+
+    background-image: url(./img/Atlas.jpg);
+    color:azure;
+    
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer h6{
+    text-decoration: solid;
+    font-weight: 200px;
+    color: rgb(20, 244, 207);
+}
+
+.bg-f{
+    background-color: black;
+}
+.bg-f q{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    opacity: 50%;
+    bottom: sticky;
+}
+
+
+.age-btn{
+
+    font-size: 15px;
+    border: none;
+    
+}
+
+.age-btn:hover{
+
+    background-color: blueviolet;
+    color: aliceblue;
+    transition: 0.3s;
+    transform: scale(2px);
+    font-size: 16px;
+    border: none;
+    
+}
+
+
